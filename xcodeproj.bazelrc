@@ -1,0 +1,14 @@
+build --announce_rc
+build --features=swift.use_global_module_cache
+build --verbose_failures
+build --experimental_remote_cache_async
+build --features=swift.enable_batch_mode
+build --@build_bazel_rules_swift//swift:copt="-j9"
+build --@build_bazel_rules_swift//swift:copt="-whole-module-optimization"
+build --define=buildNumber=10000
+build --define=telegramVersion=12.2
+build --disk_cache=/Users/danilobirbiglia/telegram-bazel-cache
+build --override_repository=build_configuration=/Users/danilobirbiglia/Desktop/Telegram-iOS-local/build-input/configuration-repository
+build --//Telegram:disableExtensions
+build --//Telegram:disableStripping
+build --features=-swift.debug_prefix_map

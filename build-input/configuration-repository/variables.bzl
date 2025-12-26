@@ -1,0 +1,16 @@
+telegram_bazel_path = "/Users/danilobirbiglia/Desktop/Telegram-iOS-local/build-input/bazel-8.3.1-darwin-arm64"
+telegram_use_xcode_managed_codesigning = True
+telegram_bundle_id = "org.9ec2ddb0032d63f3.Telegram"
+telegram_api_id = "20351113"
+telegram_api_hash = "c4338714b0c6206f8f869acfc2e90339"
+telegram_team_id = "4UZ696R8U9"
+telegram_app_center_id = "0"
+telegram_is_internal_build = "true"
+telegram_is_appstore_build = "false"
+telegram_appstore_id = "0"
+telegram_app_specific_url_scheme = "tg"
+telegram_premium_iap_product_id = ""
+telegram_aps_environment = ""
+telegram_enable_siri = False
+telegram_enable_icloud = False
+telegram_enable_watch = True

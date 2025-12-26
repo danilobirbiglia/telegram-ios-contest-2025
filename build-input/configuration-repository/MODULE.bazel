@@ -1,0 +1,3 @@
+module(
+    name = "build_configuration",
+)

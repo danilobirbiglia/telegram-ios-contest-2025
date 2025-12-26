@@ -1,0 +1,35 @@
+{
+    "homepage": "https://github.com/bazelbuild/rules_swift",
+    "maintainers": [
+        {
+            "email": "keithbsmiley@gmail.com",
+            "github": "keith",
+            "name": "Keith Smiley"
+        },
+        {
+            "email": "me@patrickbalestra.com",
+            "github": "BalestraPatrick",
+            "name": "Patrick Balestra"
+        },
+        {
+            "email": "github@brentleyjones.com",
+            "github": "brentleyjones",
+            "name": "Brentley Jones"
+        },
+        {
+            "email": "t@thi.im",
+            "github": "thii",
+            "name": "Thi Doãn"
+        },
+        {
+            "email": "heyluispadron@gmail.com",
+            "github": "luispadron",
+            "name": "Luis Padron"
+        }
+    ],
+    "repository": [
+        "github:bazelbuild/rules_swift"
+    ],
+    "versions": [],
+    "yanked_versions": {}
+}
